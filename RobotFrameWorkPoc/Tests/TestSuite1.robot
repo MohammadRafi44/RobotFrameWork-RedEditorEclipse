@@ -22,7 +22,7 @@ RiyaSen
     sleep  4s
     input text      xpath://input[@name='q']      riyasen
     sleep  1s
-    Click Element    //img[@id='hplogo']    
+    Click Element    //div[@id='searchform']   
     sleep  1s
     Click Element    //div[@class='FPdoLc tfB0Bf']//input[@name='btnK']   
     sleep  2s
@@ -37,7 +37,7 @@ NehaSharma
     sleep  4s
     input text      xpath://input[@name='q']      neha sharma
     sleep  1s
-    Click Element    //img[@id='hplogo']    
+    Click Element    //div[@id='searchform']    
     sleep  1s
     Click Element    //div[@class='FPdoLc tfB0Bf']//input[@name='btnK']   
     sleep  2s
