@@ -10,7 +10,7 @@ ${url}    https://www.google.com/
 *** Test Cases ***
 BasicSearch
     open browser      ${url}      ${browser}
-    input text      xpath://input[@name='q']      Software Testing
+    input text      xpath://input[@name='q']      Automation
     # click element      name:btnK
     close browser
     
