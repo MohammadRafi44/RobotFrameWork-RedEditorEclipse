@@ -11,7 +11,7 @@ ${url}    https://www.google.com/
 BasicSearch
     open browser      ${url}      ${browser}
     sleep  5s
-    input text      xpath://input[@name='q']      trisha
+    input text      xpath://input[@name='q']      Software Testing
     # click element      name:btnK
     sleep  2s
     close browser
