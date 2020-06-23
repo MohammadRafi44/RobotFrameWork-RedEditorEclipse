@@ -24,9 +24,7 @@ RiyaSen
     sleep  1s
     Click Element    //div[@id='searchform']   
     sleep  1s
-    Click Element    //div[@class='FPdoLc tfB0Bf']//input[@name='btnK']   
-    sleep  2s
-    Click Element    //a[contains(text(),'Images')]    
+    Click Element    //a[contains(text(),'Images')]
     sleep  3s
     close browser
 
@@ -39,8 +37,6 @@ NehaSharma
     sleep  1s
     Click Element    //div[@id='searchform']    
     sleep  1s
-    Click Element    //div[@class='FPdoLc tfB0Bf']//input[@name='btnK']   
-    sleep  2s
     Click Element    //a[contains(text(),'Images')]    
     sleep  3s
     close browser

@@ -1,65 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.1.2 (Python 3.8.2 on win32)" generated="20200616 20:36:02.196" rpa="false">
+<robot generator="Robot 3.1.2 (Python 3.8.2 on win32)" generated="20200623 13:51:36.633" rpa="false">
 <suite id="s1" name="RobotFrameWorkPoc" source="C:\Users\mohammad.shaikh\git\RobotFrameWork-RedEditorEclipse\RobotFrameWorkPoc">
 <suite id="s1-s1" name="Tests" source="C:\Users\mohammad.shaikh\git\RobotFrameWork-RedEditorEclipse\RobotFrameWorkPoc\Tests">
 <suite id="s1-s1-s1" name="TestSuite1" source="C:\Users\mohammad.shaikh\git\RobotFrameWork-RedEditorEclipse\RobotFrameWorkPoc\Tests\TestSuite1.robot">
-<test id="s1-s1-s1-t1" name="MyFirstTest">
-<kw name="Log" library="BuiltIn">
-<doc>Logs the given message with the given level.</doc>
-<arguments>
-<arg>hello world</arg>
-</arguments>
-<msg timestamp="20200616 20:36:02.489" level="INFO">hello world</msg>
-<status status="PASS" starttime="20200616 20:36:02.488" endtime="20200616 20:36:02.489"></status>
-</kw>
-<kw name="Log To Console" library="BuiltIn">
-<doc>Logs the given message to the console.</doc>
-<arguments>
-<arg>Rafi</arg>
-</arguments>
-<status status="PASS" starttime="20200616 20:36:02.490" endtime="20200616 20:36:02.490"></status>
-</kw>
-<status status="PASS" starttime="20200616 20:36:02.487" endtime="20200616 20:36:02.491" critical="yes"></status>
-</test>
-<test id="s1-s1-s1-t2" name="MySecondTest">
-<kw name="Log" library="BuiltIn">
-<doc>Logs the given message with the given level.</doc>
-<arguments>
-<arg>GIT inegrated</arg>
-</arguments>
-<msg timestamp="20200616 20:36:02.493" level="INFO">GIT inegrated</msg>
-<status status="PASS" starttime="20200616 20:36:02.493" endtime="20200616 20:36:02.494"></status>
-</kw>
-<kw name="Log To Console" library="BuiltIn">
-<doc>Logs the given message to the console.</doc>
-<arguments>
-<arg>Congrats Rafi</arg>
-</arguments>
-<status status="PASS" starttime="20200616 20:36:02.494" endtime="20200616 20:36:02.495"></status>
-</kw>
-<status status="PASS" starttime="20200616 20:36:02.492" endtime="20200616 20:36:02.495" critical="yes"></status>
-</test>
-<test id="s1-s1-s1-t3" name="RiyaSen">
+<test id="s1-s1-s1-t1" name="RiyaSen">
 <kw name="Open Browser" library="SeleniumLibrary">
 <doc>Opens a new browser instance to the given ``url``.</doc>
 <arguments>
 <arg>${url}</arg>
 <arg>${browser}</arg>
 </arguments>
-<msg timestamp="20200616 20:36:02.497" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com/'.</msg>
-<status status="PASS" starttime="20200616 20:36:02.497" endtime="20200616 20:36:06.791"></status>
+<msg timestamp="20200623 13:51:37.036" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com/'.</msg>
+<status status="PASS" starttime="20200623 13:51:37.034" endtime="20200623 13:51:41.689"></status>
+</kw>
+<kw name="Set Browser Implicit Wait" library="SeleniumLibrary">
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<status status="PASS" starttime="20200623 13:51:41.691" endtime="20200623 13:51:41.693"></status>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20200616 20:36:06.791" endtime="20200616 20:36:07.916"></status>
+<status status="PASS" starttime="20200623 13:51:41.693" endtime="20200623 13:51:42.859"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>4s</arg>
 </arguments>
-<msg timestamp="20200616 20:36:11.918" level="INFO">Slept 4 seconds</msg>
-<status status="PASS" starttime="20200616 20:36:07.917" endtime="20200616 20:36:11.918"></status>
+<msg timestamp="20200623 13:51:46.862" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20200623 13:51:42.860" endtime="20200623 13:51:46.863"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
@@ -67,88 +38,72 @@
 <arg>xpath://input[@name='q']</arg>
 <arg>riyasen</arg>
 </arguments>
-<msg timestamp="20200616 20:36:11.920" level="INFO">Typing text 'riyasen' into text field 'xpath://input[@name='q']'.</msg>
-<status status="PASS" starttime="20200616 20:36:11.919" endtime="20200616 20:36:12.055"></status>
+<msg timestamp="20200623 13:51:46.864" level="INFO">Typing text 'riyasen' into text field 'xpath://input[@name='q']'.</msg>
+<status status="PASS" starttime="20200623 13:51:46.863" endtime="20200623 13:51:47.005"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>1s</arg>
 </arguments>
-<msg timestamp="20200616 20:36:13.057" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20200616 20:36:12.056" endtime="20200616 20:36:13.058"></status>
+<msg timestamp="20200623 13:51:48.007" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200623 13:51:47.005" endtime="20200623 13:51:48.008"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
-<arg>//img[@id='hplogo']</arg>
+<arg>//div[@id='searchform']</arg>
 </arguments>
-<msg timestamp="20200616 20:36:13.059" level="INFO">Clicking element '//img[@id='hplogo']'.</msg>
-<status status="PASS" starttime="20200616 20:36:13.059" endtime="20200616 20:36:13.185"></status>
+<msg timestamp="20200623 13:51:48.009" level="INFO">Clicking element '//div[@id='searchform']'.</msg>
+<status status="PASS" starttime="20200623 13:51:48.009" endtime="20200623 13:51:51.733"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>1s</arg>
 </arguments>
-<msg timestamp="20200616 20:36:14.188" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20200616 20:36:13.186" endtime="20200616 20:36:14.188"></status>
-</kw>
-<kw name="Click Element" library="SeleniumLibrary">
-<doc>Click the element identified by ``locator``.</doc>
-<arguments>
-<arg>//div[@class='FPdoLc tfB0Bf']//input[@name='btnK']</arg>
-</arguments>
-<msg timestamp="20200616 20:36:14.190" level="INFO">Clicking element '//div[@class='FPdoLc tfB0Bf']//input[@name='btnK']'.</msg>
-<status status="PASS" starttime="20200616 20:36:14.189" endtime="20200616 20:36:16.504"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>2s</arg>
-</arguments>
-<msg timestamp="20200616 20:36:18.508" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200616 20:36:16.505" endtime="20200616 20:36:18.508"></status>
+<msg timestamp="20200623 13:51:52.736" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200623 13:51:51.734" endtime="20200623 13:51:52.736"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//a[contains(text(),'Images')]</arg>
 </arguments>
-<msg timestamp="20200616 20:36:18.511" level="INFO">Clicking element '//a[contains(text(),'Images')]'.</msg>
-<status status="PASS" starttime="20200616 20:36:18.509" endtime="20200616 20:36:21.198"></status>
+<msg timestamp="20200623 13:51:52.737" level="INFO">Clicking element '//a[contains(text(),'Images')]'.</msg>
+<status status="PASS" starttime="20200623 13:51:52.737" endtime="20200623 13:51:55.312"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>3s</arg>
 </arguments>
-<msg timestamp="20200616 20:36:24.201" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20200616 20:36:21.199" endtime="20200616 20:36:24.201"></status>
+<msg timestamp="20200623 13:51:58.315" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20200623 13:51:55.313" endtime="20200623 13:51:58.315"></status>
 </kw>
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20200616 20:36:24.201" endtime="20200616 20:36:26.352"></status>
+<status status="PASS" starttime="20200623 13:51:58.315" endtime="20200623 13:52:00.471"></status>
 </kw>
-<status status="PASS" starttime="20200616 20:36:02.496" endtime="20200616 20:36:26.353" critical="yes"></status>
+<status status="PASS" starttime="20200623 13:51:37.033" endtime="20200623 13:52:00.472" critical="yes"></status>
 </test>
-<status status="PASS" starttime="20200616 20:36:02.259" endtime="20200616 20:36:26.354"></status>
+<status status="PASS" starttime="20200623 13:51:36.706" endtime="20200623 13:52:00.473"></status>
 </suite>
-<status status="PASS" starttime="20200616 20:36:02.256" endtime="20200616 20:36:26.361"></status>
+<status status="PASS" starttime="20200623 13:51:36.701" endtime="20200623 13:52:00.476"></status>
 </suite>
-<status status="PASS" starttime="20200616 20:36:02.232" endtime="20200616 20:36:26.364"></status>
+<status status="PASS" starttime="20200623 13:51:36.674" endtime="20200623 13:52:00.479"></status>
 </suite>
 <statistics>
 <total>
-<stat pass="3" fail="0">Critical Tests</stat>
-<stat pass="3" fail="0">All Tests</stat>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="3" fail="0" id="s1" name="RobotFrameWorkPoc">RobotFrameWorkPoc</stat>
-<stat pass="3" fail="0" id="s1-s1" name="Tests">RobotFrameWorkPoc.Tests</stat>
-<stat pass="3" fail="0" id="s1-s1-s1" name="TestSuite1">RobotFrameWorkPoc.Tests.TestSuite1</stat>
+<stat pass="1" fail="0" id="s1" name="RobotFrameWorkPoc">RobotFrameWorkPoc</stat>
+<stat pass="1" fail="0" id="s1-s1" name="Tests">RobotFrameWorkPoc.Tests</stat>
+<stat pass="1" fail="0" id="s1-s1-s1" name="TestSuite1">RobotFrameWorkPoc.Tests.TestSuite1</stat>
 </suite>
 </statistics>
 <errors>
