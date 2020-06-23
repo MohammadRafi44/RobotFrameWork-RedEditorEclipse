@@ -37,6 +37,7 @@ NehaSharma
     sleep  1s
     Click Element    //div[@id='searchform']    
     sleep  1s
-    Click Element    //a[contains(text(),'Images')]    
+    Click Element    //a[contains(text(),'Images')]   
+    sleep  1s 
     sleep  3s
     close browser
