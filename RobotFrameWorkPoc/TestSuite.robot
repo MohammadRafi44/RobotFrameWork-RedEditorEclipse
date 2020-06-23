@@ -1,6 +1,6 @@
 *** Settings ***
 Library    SeleniumLibrary  
-
+Library    SeleniumLibrary  
 
 *** Variables ***
 ${browser}    chrome
@@ -10,13 +10,46 @@ ${url}    https://www.google.com/
 *** Test Cases ***
 BasicSearch
     open browser      ${url}      ${browser}
-    sleep  5s
     input text      xpath://input[@name='q']      Software Testing
     # click element      name:btnK
-    sleep  2s
     close browser
     
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # VHRLogin
     # Open Browser    ${url}    ${browser}
     # Maximize Browser Window
