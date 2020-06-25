@@ -10,7 +10,7 @@ ${url}    https://www.google.com/
 *** Test Cases ***
 BasicSearch
     open browser      ${url}      ${browser}
-    input text      xpath://input[@name='q']      Automation
+    input text      xpath://input[@name='q']      CloneChangesDone
     # click element      name:btnK
     close browser
     
