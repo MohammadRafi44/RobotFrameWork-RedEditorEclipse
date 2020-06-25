@@ -15,7 +15,7 @@ BasicSearch
     close browser
 RafiSearch
     open browser      ${url}      ${browser}
-    input text      xpath://input[@name='q']      Rafi Changes
+    input text      xpath://input[@name='q']      Rafi Changes+Team Member B changes 
     # click element      name:btnK
     close browser
 
