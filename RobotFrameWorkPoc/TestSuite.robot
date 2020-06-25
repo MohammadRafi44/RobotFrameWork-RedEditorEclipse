@@ -13,11 +13,6 @@ BasicSearch
     input text      xpath://input[@name='q']      CloneChangesDone
     # click element      name:btnK
     close browser
-RafiSearch
-    open browser      ${url}      ${browser}
-    input text      xpath://input[@name='q']      RafiChanges
-    # click element      name:btnK
-    close browser
 
 
 *** Keywords ***
