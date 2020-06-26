@@ -6,19 +6,14 @@ Library    SeleniumLibrary
 ${browser}    chrome
 # ${url}    https://demo.nopcommerce.com/
 ${url}    https://www.google.com/
+    
 
 *** Test Cases ***
-BasicSearch
-    open browser      ${url}      ${browser}
-    input text      xpath://input[@name='q']      CloneChangesDone
-    # click element      name:btnK
-    close browser
-RafiSearch
-    open browser      ${url}      ${browser}
-    input text      xpath://input[@name='q']      Rafi Changes+Team Member B changes 
-    # click element      name:btnK
-    close browser
 
-
+ProductSearch
+    open browser      ${url}      ${browser}
+    input text      xpath://input[@name='q']      Test Automation
+    close browser
+  
 *** Keywords ***
 
