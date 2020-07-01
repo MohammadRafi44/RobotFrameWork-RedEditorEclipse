@@ -20,7 +20,7 @@ RiyaSen
     Set Browser Implicit Wait    5
     Maximize Browser Window
     sleep  4s
-    input text      xpath://input[@name='q']      riyasen
+    input text      xpath://input[@name='qsds']      riyasen
     sleep  1s
     Click Element    //div[@id='searchform']   
     sleep  1s
@@ -28,16 +28,16 @@ RiyaSen
     sleep  3s
     close browser
 
-NehaSharma
-    open browser      ${url}      ${browser}
-    Set Browser Implicit Wait    5
-    Maximize Browser Window
-    sleep  4s
-    input text      xpath://input[@name='q']      neha sharma
-    sleep  1s
-    Click Element    //div[@id='searchform']    
-    sleep  1s
-    Click Element    //a[contains(text(),'Images')]   
-    sleep  1s 
-    sleep  3s
-    close browser
+# NehaSharma
+    # open browser      ${url}      ${browser}
+    # Set Browser Implicit Wait    5
+    # Maximize Browser Window
+    # sleep  4s
+    # input text      xpath://input[@name='q']      neha sharma
+    # sleep  1s
+    # Click Element    //div[@id='searchform']    
+    # sleep  1s
+    # Click Element    //a[contains(text(),'Images')]   
+    # sleep  1s 
+    # sleep  3s
+    # close browser
