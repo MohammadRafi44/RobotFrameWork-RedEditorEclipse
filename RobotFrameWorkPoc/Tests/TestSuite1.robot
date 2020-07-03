@@ -20,7 +20,7 @@ RiyaSen
     Set Browser Implicit Wait    5
     Maximize Browser Window
     sleep  4s
-    input text      xpath://input[@name='q']      riyasen
+    input text      xpath://input[@name='qs']      riyasen
     sleep  1s
     Click Element    //div[@id='searchform']   
     sleep  1s
